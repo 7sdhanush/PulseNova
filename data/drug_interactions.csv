@@ -1,0 +1,6 @@
+Drug1,Drug2,Risk,Reason
+Warfarin,Aspirin,High,Both medicines may increase bleeding risk.
+Paracetamol,Ibuprofen,Moderate,Use together only when necessary.
+Metformin,Alcohol,High,May increase risk of lactic acidosis.
+Aspirin,Ibuprofen,Moderate,May increase stomach bleeding risk.
+Warfarin,Ibuprofen,High,Severe interaction causing bleeding complications.
