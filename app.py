@@ -360,6 +360,8 @@ st.markdown("""
 conn = sqlite3.connect("database/healthcare.db", check_same_thread=False)
 cursor = conn.cursor()
 
+authenticate_user(conn, cursor)
+
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS health_history(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
