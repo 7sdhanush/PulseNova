@@ -8,6 +8,7 @@ from fpdf import FPDF
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
+from auth import authenticate_user, logout_button
 
 # -----------------------------
 # CARETAKER ALERT AGENT
@@ -385,6 +386,8 @@ conn.commit()
 # -----------------------------
 st.sidebar.markdown("## 🏥 Healthcare Navigation")
 st.sidebar.success("🟢 System Online")
+
+logout_button()
 
 menu = st.sidebar.selectbox(
     "Select Module",
